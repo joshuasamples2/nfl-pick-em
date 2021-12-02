@@ -65,3 +65,4 @@ signUpBtn.addEventListener('click', function () {
 // API for odds and team data
 // Leaderboard displays users score
 // Create a "points" system for users
+// Create users
