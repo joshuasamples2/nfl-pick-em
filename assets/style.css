@@ -1,0 +1,47 @@
+/* LANDING PAGE */
+#landing-body {
+    background-image: url('./landing-page-football.jpeg');
+    background-size: 100% ;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    margin-top: 10%;
+    background-color: rgba(58, 56, 56, 0.63);
+    width: fit-content;
+    height: fit-content;
+    border-style: double;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+img {
+    height: 70%;
+    width: 70%;
+}
+
+input {
+    margin: 10px;
+}
+
+.button {
+  height: 25px;
+  width: 80px;
+  color: white;
+  background-color: teal;
+  /* background-color: rgb(13, 69, 173); */
+  border-radius: 5px;
+  border-style: none;
+}
+
+.hide {
+    display: none;
+}
