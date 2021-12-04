@@ -62,7 +62,9 @@ signUpBtn.addEventListener('click', function () {
 
 // TODO
 // Move to handlebars
-// API for odds and team data
+// API for odds and team data (or hard code the teams)
 // Leaderboard displays users score
 // Create a "points" system for users
-// Create users
+// Create users/profiles (authentication using express-session and cookies)
+// Make README and slides
+// Protect API key with environment variables

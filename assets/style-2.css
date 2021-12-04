@@ -114,3 +114,19 @@ justify-content: center;
 .game-time {
   background-color: rgb(59, 56, 56);
 }
+
+.team-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 5px;
+    border-style: groove;
+}
+
+/* .team-card img {
+    width: 20%;
+    height: 20%;
+} */
