@@ -1,0 +1,162 @@
+[
+    {
+      "team_name": "49ers",
+      "location": "San Francisco",
+      "logo": ""
+    },
+    {
+        "team_name": "Raiders",
+        "location": "Las Vegas",
+        "logo": ""
+      },
+      {
+        "team_name": "Packers",
+        "location": "Green Bay",
+        "logo": ""
+      },
+      {
+        "team_name": "Buccaneers",
+        "location": "Tampa Bay",
+        "logo": ""
+      },
+      {
+        "team_name": "Cardinals",
+        "location": "Arizona",
+        "logo": ""
+      },
+      {
+        "team_name": "Bears",
+        "location": "Chicago",
+        "logo": ""
+      },
+      {
+        "team_name": "Giants",
+        "location": "New York",
+        "logo": ""
+      },
+      {
+        "team_name": "Lions",
+        "location": "Detroit",
+        "logo": ""
+      },
+      {
+        "team_name": "Washington Football Team",
+        "location": "Washington",
+        "logo": ""
+      },
+      {
+        "team_name": "Eagles",
+        "location": "Philadelphia",
+        "logo": ""
+      },
+      {
+        "team_name": "Steelers",
+        "location": "Pittsburgh",
+        "logo": ""
+      },
+      {
+        "team_name": "Rams",
+        "location": "Los Angeles",
+        "logo": ""
+      },
+      {
+        "team_name": "Browns",
+        "location": "Cleveland",
+        "logo": ""
+      },
+      {
+        "team_name": "Colts",
+        "location": "Indianapolis",
+        "logo": ""
+      },
+      {
+        "team_name": "Cowboys",
+        "location": "Dallas",
+        "logo": ""
+      },
+      {
+        "team_name": "Chiefs",
+        "location": "Kansas City",
+        "logo": ""
+      },
+      {
+        "team_name": "Chargers",
+        "location": "Los Angeles",
+        "logo": ""
+      },
+      {
+        "team_name": "Broncos",
+        "location": "Denver",
+        "logo": ""
+      },
+      {
+        "team_name": "Jets",
+        "location": "New York",
+        "logo": ""
+      },
+      {
+        "team_name": "Patriots",
+        "location": "New England",
+        "logo": ""
+      },
+      {
+        "team_name": "Titans",
+        "location": "Tennessee",
+        "logo": ""
+      },
+      {
+        "team_name": "Bills",
+        "location": "Buffalo",
+        "logo": ""
+      },
+      {
+        "team_name": "Vikings",
+        "location": "Minnesota",
+        "logo": ""
+      },
+      {
+        "team_name": "Falsons",
+        "location": "Atlanta",
+        "logo": ""
+      },
+      {
+        "team_name": "Dolphins",
+        "location": "Miami",
+        "logo": ""
+      },
+      {
+        "team_name": "Saints",
+        "location": "New Orleans",
+        "logo": ""
+      },
+      {
+        "team_name": "Bengals",
+        "location": "Cincinnati",
+        "logo": ""
+      },
+      {
+        "team_name": "Seahawks",
+        "location": "Seattle",
+        "logo": ""
+      },
+      {
+        "team_name": "Panthers",
+        "location": "Carolina",
+        "logo": ""
+      },
+      {
+        "team_name": "Jaguars",
+        "location": "Jacksonville",
+        "logo": ""
+      },
+          {
+      "team_name": "Ravens",
+      "location": "Baltimore",
+      "logo": ""
+    },
+    {
+      "team_name": "Texans",
+      "location": "Houston",
+      "logo": ""
+    }
+  ]
