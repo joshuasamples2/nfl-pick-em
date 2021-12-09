@@ -40,17 +40,6 @@ let gameURL = 'https://api.the-odds-api.com/v4/sports/americanfootball_nfl/odds/
         </div>
       </div>`)
     }
-
-    // for (let i = 0; i < data.length; i++) {
-    //     let odds = JSON.stringify(data[i].bookmakers[i].markets[i].outcomes[i]);
-    //     console.log(odds);
-    //     $('#recent-games').append(`       
-    //     <div class="game-card">
-    //     <div class="away-team">
-    //     ${odds}
-    //     </div>        
-    //   </div>`)
-    // }
     })
 }
 renderGames();
@@ -59,12 +48,3 @@ signUpBtn.addEventListener('click', function () {
     logInForm.setAttribute('class', 'hide');
     signUpForm.setAttribute('class', '');
 })
-
-// TODO
-// Move to handlebars
-// API for odds and team data (or hard code the teams)
-// Leaderboard displays users score
-// Create a "points" system for users
-// Create users/profiles (authentication using express-session and cookies)
-// Make README and slides
-// Protect API key with environment variables
