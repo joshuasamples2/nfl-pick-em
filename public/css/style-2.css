@@ -96,12 +96,12 @@ margin: 5px;
 padding: 5px;
 color: white;
 justify-content: center;
-/* align-items: center; */
+align-items: center;
 }
 
 .home-team, .away-team, .game-time {
   display: flex;
-  /* justify-content: center; */
+  justify-content: center;
   align-items: center;
   flex-direction: column;
   background-color: #cf1f71;
@@ -115,7 +115,7 @@ justify-content: center;
   background-color: rgb(59, 56, 56);
 }
 
-/* .team-card {
+.team-card {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -124,9 +124,9 @@ justify-content: center;
     width: fit-content;
     border-radius: 5px;
     border-style: groove;
-} */
+} 
 
-/* .team-card img {
+.team-card img {
     width: 20%;
     height: 20%;
-} */
+}
