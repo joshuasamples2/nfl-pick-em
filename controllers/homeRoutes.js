@@ -1,16 +1,24 @@
-const router = require('express').Router();
+const express = require('express');
+const router = express.Router()
 const path = require('path');
+const exhbs = require('express-handlebars');
+const helpers = require('../utils/helpers');
+const hbs = exhbs.create({helpers})
+const app = express();
 
-router.get('/', async (req, res) => {
-    res.render('home');
+app.engine('handlebars', hbs.engine);
+app.set('view engine', 'handlebars');
+
+router.get('/betting', (req, res) => {
+    res.render('partials/betting');
 });
+
+router.get('/teams', (req, res) =>{
+    res.render('partials/teams')
+})
+
 router.get('/login', (req, res) => {
-    // If the user is already logged in, redirect to the homepage
-    if (req.session.loggedIn) {
-      res.redirect('/');
-      return;
-    }
-    // Otherwise, render the 'login' template
-    res.render('login');
-  });
+    res.render('partials/login')
+})
+
 module.exports = router;
