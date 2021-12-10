@@ -1,6 +1,7 @@
+
 form {
     margin-top: 10%;
-    background-color: rgba(58, 56, 56, 0.63);
+    background-color: rgba(82, 70, 70, 0.63);
     width: fit-content;
     height: fit-content;
     border-style: double;
@@ -24,7 +25,7 @@ input {
   width: 80px;
   color: white;
   background-color: teal;
-  /* background-color: rgb(13, 69, 173); */
+  background-color: rgb(13, 69, 173);
   border-radius: 5px;
   border-style: none;
 }
