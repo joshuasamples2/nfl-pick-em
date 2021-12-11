@@ -66,13 +66,13 @@ article {
 }
 
 #upcoming-games {
-    width: 75%;
+    width: 100%;
     height: fit-content;
 }
 
-#recent-games {
-    width: 25%;
-}
+/* #recent-games {
+    width: 50%;
+} */
 
 #favorite-teams {
     width: 100%;
