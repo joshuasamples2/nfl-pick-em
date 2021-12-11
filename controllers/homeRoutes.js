@@ -5,15 +5,13 @@ const exhbs = require('express-handlebars');
 const helpers = require('../utils/helpers');
 const hbs = exhbs.create({helpers})
 const app = express();
-const withAuth = require('../utils/auth');
-// const { User } = require('../models');
+const withAuth = require('../utils/auth')
 
-// app.engine('handlebars', hbs.engine);
-// app.set('view engine', 'handlebars');
 router.get('/', (req, res) =>{
-      res.render("home");
-    })
-router.get('/betting',withAuth,  (req, res) => {
+    res.render("home");
+  })
+
+router.get('/betting', withAuth, (req, res) => {
     res.render('partials/betting');
 });
 

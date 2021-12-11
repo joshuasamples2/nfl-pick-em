@@ -5,6 +5,7 @@ const exphbs = require('express-handlebars');
 const routes = require('./controllers');
 const helpers = require('./utils/helpers');
 const sequelize = require('./config/connection');
+// const mysql = require('mysql2');
 const SequelizeStore = require('connect-session-sequelize')(session.Store);
 
 const app = express();
@@ -29,13 +30,17 @@ app.use(session(sess));
 app.engine('handlebars', hbs.engine);
 app.set('view engine', 'handlebars');
 
-// app.use(express.json());
-// app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, 'public')));
 
+<<<<<<< HEAD
 // app.get('/', (req, res) =>{
 //   res.render("home");
 // })
+=======
+// app.use(routes);
+>>>>>>> 5c72c7bae049abd943186baf18ff902ffe1b1586
 app.use(routes);
 
 sequelize.sync({ force: false }).then(() => {
