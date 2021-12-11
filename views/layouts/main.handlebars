@@ -10,15 +10,24 @@
 <body>
    <header>
     <div class="topnav">
-      <a class="active" href="/">Home</a>
-      <a href= "betting">Bets</a>
-      <a href="teams">Teams</a>
-      <a href="login">Log Out</a>
+  <a href= "betting">Bets</a>
+      <a class="active" href="login">Login/Log Out</a>
+      
+      {{!-- {{#if logged_in}}
+        <a href="/betting">profile</a> |
+        <button class="no-button" id="logout">logout</button>
+        {{else}}
+        <a href="/login">login</a>
+        {{/if}} --}}
+  
     </div>
 <main>
+  {{login}}
 {{{body}}}
-{{login}}
 </main>
+ {{!-- {{#if logged_in}}
+  <script src="/js/logout.js"></script>
+  {{/if}} --}}
 </body>
 
 </html>
