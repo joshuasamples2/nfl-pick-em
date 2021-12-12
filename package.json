@@ -20,12 +20,20 @@
   "homepage": "https://github.com/joshuasamples2/nfl-pick-em#readme",
   "dependencies": {
     "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.1",
     "connect-session-sequelize": "^7.0.4",
+    "depd": "^2.0.0",
     "dotenv": "^8.2.0",
+    "ee-first": "^1.1.1",
+    "encodeurl": "^1.0.2",
+    "escape-html": "^1.0.3",
     "express": "^4.17.1",
-    "express-handlebars": "^5.2.0",
-    "express-session": "^1.17.1",
+    "express-handlebars": "^5.3.5",
+    "express-session": "^1.17.2",
+    "finalhandler": "^1.1.2",
+    "merge-descriptors": "^1.0.1",
     "mysql2": "^2.2.5",
+    "on-finished": "^2.3.0",
     "sequelize": "^6.3.5"
   }
 }

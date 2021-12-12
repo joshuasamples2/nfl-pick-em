@@ -1,7 +1,12 @@
 const logInForm = document.querySelector('#log-in-form');
 const signUpForm = document.querySelector('#sign-up-form');
 const signUpBtn = document.querySelector('#sign-up-button');
+<<<<<<< HEAD
+const APIKey = '56b6b840b8ed319444b7a8b95dc2f22c';
+// const APIKey = '120ef731bdf1980233cbe2d570c2f606';
+=======
 const APIKey = 'f90d2ec2372d1b8d9b036aba224c0e1e';
+>>>>>>> 5c72c7bae049abd943186baf18ff902ffe1b1586
 
 // function renderAPI() {
 // let queryURL = 'https://api.the-odds-api.com/v4/sports/?apiKey=' + APIKey;

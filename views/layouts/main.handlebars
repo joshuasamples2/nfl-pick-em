@@ -10,15 +10,31 @@
 <body>
    <header>
     <div class="topnav">
+<<<<<<< HEAD
+  <a href= "betting">Bets</a>
+      <a class="active" href="login">Login/Log Out</a>
+      
+      {{!-- {{#if logged_in}}
+        <a href="/betting">profile</a> |
+        <button class="no-button" id="logout">logout</button>
+        {{else}}
+        <a href="/login">login</a>
+        {{/if}} --}}
+  
+=======
       <a class="" href="/">Home</a>
       <a class="" href= "betting">Bets</a>
       {{!-- <a href="teams">Teams</a> --}}
       <a class="" href="login">Log Out</a>
+>>>>>>> 5c72c7bae049abd943186baf18ff902ffe1b1586
     </div>
-  </header>
 <main>
+  {{login}}
 {{{body}}}
 </main>
+ {{!-- {{#if logged_in}}
+  <script src="/js/logout.js"></script>
+  {{/if}} --}}
 </body>
 
 </html>
