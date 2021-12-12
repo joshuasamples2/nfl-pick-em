@@ -34,13 +34,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, 'public')));
 
-<<<<<<< HEAD
-// app.get('/', (req, res) =>{
-//   res.render("home");
-// })
-=======
 // app.use(routes);
->>>>>>> 5c72c7bae049abd943186baf18ff902ffe1b1586
 app.use(routes);
 
 sequelize.sync({ force: false }).then(() => {
